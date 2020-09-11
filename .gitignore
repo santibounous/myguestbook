@@ -9,3 +9,10 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/sonarlint/issuestore/index.pb
+/.idea/modules.xml
+/.idea/myguestbook.iml
+/.idea/php.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
