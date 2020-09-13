@@ -4,12 +4,16 @@ type: php:7.4
 
 runtime:
     extensions:
+        - redis
         - apcu
         - mbstring
         - sodium
         - iconv
         - ctype
-        
+
+relationships:
+    database: "db:postgresql"
+    redis: "rediscache:redis"
 
 build:
     flavor: none
