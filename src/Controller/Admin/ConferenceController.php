@@ -15,10 +15,6 @@ class ConferenceController extends AbstractDashboardController
     /**
      * @Route("/admin", name="admin")
      */
-    public function index(): Response
-    {
-        return parent::index();
-    }
 
     public function configureDashboard(): Dashboard
     {
@@ -31,7 +27,5 @@ class ConferenceController extends AbstractDashboardController
         yield MenuItem::linktoDashboard('Dashboard', 'fa fa-home');
         yield MenuItem::linkToCrud('Conferences', 'icon class', Conference::class);
         yield MenuItem::linkToCrud('Comments', 'icon class', Comment::class);
-
-        // yield MenuItem::linkToCrud('The Label', 'icon class', EntityClass::class);
     }
 }
