@@ -21,7 +21,7 @@ class ConferenceCrudController extends AbstractCrudController
     public function configureFields(string $pageName): iterable
     {
         return [
-            IdField::new('id'),
+            //IdField::new('id'),
             TextField::new('city'),
             IntegerField::new('year'),
             BooleanField::new('isInternational'),
