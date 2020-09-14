@@ -21,8 +21,8 @@
 #      edit:
 #        fields:
 #          - { property: 'conference' }
-#          - { property: 'createdAt', type: datetime, type_options: {
-#            attr: { readonly: true } } }
+#          - { property: 'createdAt', type: datetime, type_options: { attr: { readonly: true } } }
 #          - 'author'
 #          - { property: 'email', type: 'email' }
 #          - property: text
+#          - { property: 'photoFilename', type: 'image', 'base_path': "/uploads/photos", label: 'Photo' }

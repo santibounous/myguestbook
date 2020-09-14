@@ -9,4 +9,5 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
-/.idea/*
+/.idea
+/public/uploads
